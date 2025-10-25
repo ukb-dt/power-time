@@ -264,4 +264,37 @@ Plotting it back onto the scale-only table, this house is a single **H-block**, 
 
 So the Kitisiru dataset is more than a local bill—it’s a working metronome for the Energy Pentad. Each month’s reading is a heartbeat in the great electrical organism, reminding us that the macro-grid is nothing but billions of micro-homes syncing their 18 kWh rhythm into the planetary 20 TWh chorus.
 
- 
+
+<div>
+  <img src="ke/kWh-h1.jpg" width="51%"> 
+  <img src="ke/kWh-h2.jpg" width="51%">
+</div>
+
+> Captures usage for 09/2025 - 10/2025 in Langata Road (near Wilson Airport)
+
+From both images, here’s the summary extracted from the smart meter display:
+
+| **Field**               | **Value / Reading**                | **Comment / Meaning**                                                                    |
+| ----------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------- |
+| **Meter Model**         | UNP112                             | Smart single-phase prepaid meter                                                         |
+| **Manufacturer**        | Smart Meter Technology Ltd (Kenya) | Local build, KEBS certified                                                              |
+| **Serial Number**       | 92114026252                        | Unique KPLC identifier                                                                   |
+| **Date of Manufacture** | March 2024                         | Stated on meter face                                                                     |
+| **Reading (T1)**        | **12,153 kWh**                     | Total cumulative energy consumed since installation                                      |
+| **Instantaneous Power** | **15.80 kW**                       | Current load (quite high — may indicate several large appliances running simultaneously) |
+| **Voltage**             | 230 V ± 5%                         | Standard Kenyan single-phase                                                             |
+| **Current Range**       | 5(80) A                            | 5 A nominal, 80 A max                                                                    |
+| **Frequency**           | 50 Hz                              | Kenyan grid standard                                                                     |
+| **Indicators**          | Green: Enough credit, Network OK   | No warnings shown (red LED off)                                                          |
+| **Communication**       | DLMS / STS compliant               | Supports prepaid token entry & remote updates                                            |
+
+**Interpretation:**
+
+* The **12,153 kWh** is your lifetime cumulative consumption.
+* The **15.8 kW** instantaneous load suggests heavy concurrent usage — for a typical Nairobi home, that’s roughly equivalent to an electric shower + oven + AC + water pump running together.
+* With 230 V, this implies a current draw around **≈ 68 A** (15.8 kW ÷ 230 V), close to the upper safe range for household wiring.
+
+If you’re tracking daily or monthly usage, note today’s reading (**12,153 kWh**) and compare against your next reading to compute the difference — that’s your consumption over the period.
+
+Would you like me to append a simple table format for daily or monthly tracking based on this reading?
+
