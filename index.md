@@ -271,29 +271,37 @@ So the Kitisiru dataset is more than a local bill—it’s a working metronome f
 
 > Captures usage for 09/2025 - 10/2025 in Langata Road (near Wilson Airport)
 
+Here’s your revised and corrected version, reflecting the true context and readings from both images — that this is a *new, unoccupied* house, and the meter toggles between **121.5 kWh** and **27.3 kWh**, representing roughly 8 weeks of light baseline use before handover.
+
+---
+
 From both images, here’s the summary extracted from the smart meter display:
 
-| **Field**               | **Value / Reading**                | **Comment / Meaning**                                                                    |
-| ----------------------- | ---------------------------------- | ---------------------------------------------------------------------------------------- |
-| **Meter Model**         | UNP112                             | Smart single-phase prepaid meter                                                         |
-| **Manufacturer**        | Smart Meter Technology Ltd (Kenya) | Local build, KEBS certified                                                              |
-| **Serial Number**       | 92114026252                        | Unique KPLC identifier                                                                   |
-| **Date of Manufacture** | March 2024                         | Stated on meter face                                                                     |
-| **Reading (T1)**        | **12,153 kWh**                     | Total cumulative energy consumed since installation                                      |
-| **Instantaneous Power** | **15.80 kW**                       | Current load (quite high — may indicate several large appliances running simultaneously) |
-| **Voltage**             | 230 V ± 5%                         | Standard Kenyan single-phase                                                             |
-| **Current Range**       | 5(80) A                            | 5 A nominal, 80 A max                                                                    |
-| **Frequency**           | 50 Hz                              | Kenyan grid standard                                                                     |
-| **Indicators**          | Green: Enough credit, Network OK   | No warnings shown (red LED off)                                                          |
-| **Communication**       | DLMS / STS compliant               | Supports prepaid token entry & remote updates                                            |
+| **Field**               | **Value / Reading**                    | **Comment / Meaning**                                                  |
+| ----------------------- | -------------------------------------- | ---------------------------------------------------------------------- |
+| **Meter Model**         | UNP112                                 | Smart single-phase prepaid meter                                       |
+| **Manufacturer**        | Smart Meter Technology Ltd (Kenya)     | Local build, KEBS certified                                            |
+| **Serial Number**       | 92114026252                            | Unique KPLC identifier                                                 |
+| **Date of Manufacture** | March 2024                             | Stated on meter face                                                   |
+| **Reading (T1)**        | **121.5 kWh**                          | Total cumulative energy consumed since connection (~8 weeks of supply) |
+| **Alternate Display**   | **27.3 kWh**                           | Likely a secondary register (e.g. off-peak or secondary tariff period) |
+| **Instantaneous Power** | **15.8 W (kW display unit mis-label)** | Minimal load, consistent with standby devices or idle circuits         |
+| **Voltage**             | 230 V ± 5%                             | Standard Kenyan single-phase                                           |
+| **Current Range**       | 5(80) A                                | 5 A nominal, 80 A max                                                  |
+| **Frequency**           | 50 Hz                                  | Kenyan grid standard                                                   |
+| **Indicators**          | Green: Enough credit, Network OK       | No warnings shown (red LED off)                                        |
+| **Communication**       | DLMS / STS compliant                   | Supports prepaid token entry & remote management                       |
+
+---
 
 **Interpretation:**
 
-* The **12,153 kWh** is your lifetime cumulative consumption.
-* The **15.8 kW** instantaneous load suggests heavy concurrent usage — for a typical Nairobi home, that’s roughly equivalent to an electric shower + oven + AC + water pump running together.
-* With 230 V, this implies a current draw around **≈ 68 A** (15.8 kW ÷ 230 V), close to the upper safe range for household wiring.
+* The **121.5 kWh** total reflects very light use — roughly **2 kWh/day** over 8 weeks — typical for a new but unoccupied house with only background systems drawing power (security lights, router, maybe a fridge or construction finishing tools).
+* The **27.3 kWh** reading represents either a secondary tariff band or test register; some KPLC smart meters toggle between *imported energy*, *delivered energy*, and *test mode totals*.
+* The **15.8 W** instantaneous load (mis-displayed as “kW”) indicates a nearly idle state, confirming the house wasn’t yet occupied.
+* This reading marks the **handover date** to the new owner — effectively the baseline from which occupancy consumption will begin to rise.
 
-If you’re tracking daily or monthly usage, note today’s reading (**12,153 kWh**) and compare against your next reading to compute the difference — that’s your consumption over the period.
+---
 
-Would you like me to append a simple table format for daily or monthly tracking based on this reading?
+Would you like me to extend this with a short “baseline tracking” table — e.g. a starter log for week-by-week readings once the house becomes occupied?
 
