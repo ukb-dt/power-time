@@ -208,3 +208,60 @@ plt.show()
 df_out.head(6), df_out.tail(6), summary, "CSV saved to: " + csv_path
 
 ```
+
+# F
+Alright—let’s unpack this like an energy auditor with a sense of rhythm.
+
+You’ve got **36 monthly readings** from **Oct 2020 to Oct 2025**.
+
+---
+
+### 1. Estimate daily consumption
+
+We’ll use the **median (548 kWh/month)** as the most stable representative (since your max = 3555 kWh suggests an occasional outlier or multi-month catch-up bill).
+
+**Daily average = 548 kWh ÷ 30 days ≈ 18.3 kWh/day.**
+
+That’s your “steady-state” household baseline.
+
+If we used the **mean (639 kWh/month)** instead, we’d get ≈ 21.3 kWh/day — a slightly higher figure reflecting occasional spikes.
+
+---
+
+### 2. Context: Kitisiru vs. US
+
+| Region                                  | Typical household consumption | Daily equivalent  | Comment                                                                                                                                   |
+| --------------------------------------- | ----------------------------- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
+| **Kitisiru (this sample)**              | 548 kWh/month                 | **18 kWh/day**    | Upper-middle-class Nairobi home, possibly 3–4 bedrooms, some air-conditioning, electric geysers, fridge, Wi-Fi routers, and lighting load |
+| **Average U.S. home**                   | ~900–1000 kWh/month           | **30–33 kWh/day** | Larger spaces, HVAC dependence, more appliances                                                                                           |
+| **Typical urban Kenya (middle-income)** | 150–250 kWh/month             | **5–8 kWh/day**   | Smaller households, fewer continuous loads                                                                                                |
+
+So your Kitisiru house is running at **roughly 2–3× the Kenyan norm** but **~60 % of a U.S. home’s usage**, which makes sense for a modern Nairobi household with Western-style amenities but less heating/cooling burden.
+
+---
+
+### 3. Notes
+
+* **22,997 kWh total over 5 years** → average ≈ 3833 kWh/year.
+* At a tariff of, say, **KES 25/kWh (blended)**, that’s ~**KES 96,000/year** or about **USD 750/year**—well within the expected range for affluent Nairobi households.
+* The outlier months (e.g. 3555 kWh) likely correspond to **catch-up bills**, **heater malfunction**, or **billing errors**, not genuine continuous use.
+
+---
+
+So, median-based inference: **~18 kWh/day**, a quiet but steady hum of upper-middle-class urban life—Wi-Fi, hot showers, maybe a small inverter, but no energy-gluttonous HVAC monster in the basement.
+
+The interesting next step would be to map this onto your **Energy Pentad (2 kWh → 20 kWh → 2 MWh → 2 GWh → 2 TWh)** ladder — this home sits beautifully at the **θ → Σ boundary**: a “Root–Trunk” entity, bridging personal metabolism (2 kWh/day) and micro-institutional rhythm (20 kWh/day).
+
+# G
+
+## Epilogue: Where the Wires Meet the Roots
+
+The reconstructed Kitisiru trace settles around **18 kWh/day**, which drops neatly onto the **H-block** of the canonical scale. In the thermodynamic octave, that’s the *roots* of civilization—the unit household metabolism sitting one order of magnitude above the human body (2 kWh/day) and one below the SME engine (2 MWh/day).
+
+In that sense, the household is the first stable node where *personal intention* becomes *infrastructure*: a junction where the 2 kWh → 20 kWh step transduces biological demand into mechanical supply. The geyser, fridge, router, and inverter are the organelles of this energy-body, humming at the θ → Σ boundary of the ukb-fractal—where heat becomes habit, and habit becomes network.
+
+Plotting it back onto the scale-only table, this house is a single **H-block**, about **1⁄10 of an F**, **1⁄1000 of a C**, and **1⁄10 000 000 of the U.S. ledger**. That proportionality is the whole moral: civilization’s hierarchy is not an abstraction but a cascade of identical pulses scaled by tenfolds of consumption and coordination.
+
+So the Kitisiru dataset is more than a local bill—it’s a working metronome for the Energy Pentad. Each month’s reading is a heartbeat in the great electrical organism, reminding us that the macro-grid is nothing but billions of micro-homes syncing their 18 kWh rhythm into the planetary 20 TWh chorus.
+
+ 
