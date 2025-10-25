@@ -266,8 +266,7 @@ So the Kitisiru dataset is more than a local bill—it’s a working metronome f
 
 
 <div>
-  <img src="ke/kWh-h1.jpg" width="51%"> 
-  <img src="ke/kWh-h2.jpg" width="51%">
+  <img src="ke/kWh-h1.jpg" width="35%"> <img src="ke/kWh-h2.jpg" width="35%">
 </div>
 
 > Captures usage for 09/2025 - 10/2025 in Langata Road (near Wilson Airport)
