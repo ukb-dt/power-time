@@ -39,7 +39,8 @@ If you want this as a one-glance card for the ukb-fractal README, I can print a 
 # C
 
 <div>
-  <img src="ke/kWh-kitisiru.jpg"> <img src"ke/kWh-represent.jpg">
+  <img src="ke/kWh-kitisiru.jpg" width="51%"> 
+  <img src="ke/kWh-represent.jpg" width="51%">
 </div>
 
 Here’s the imputed table summary from the consumption graph:
