@@ -1,4 +1,4 @@
-# A
+# [A](https://ukb-dt.github.io/ecology/)
 Locked to **scale-only**, rounded to **2×10^N** blocks. Units per your spec.
 
 |  Code | Tier (who/what)        | Unit | Canon size (per **day**)     | Count relations (ballpark) |
