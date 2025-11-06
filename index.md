@@ -1,4 +1,4 @@
-> *Kenya’s retail electricity (~ **$0.22 USD/kWh**) is indeed roughly **an order of magnitude higher** than Egypt’s (~ **$0.02 USD/kWh**)*
+> *Kenya’s retail electricity (~ **$0.22 USD/kWh**) is indeed roughly **an order of magnitude higher** than Egypt’s (~ **$0.02 USD/kWh**)*              
 > -- [Baba Theuri](https://ukb-dt.github.io/theuri/)
 
 # [A](https://ukb-dt.github.io/ecology/)
