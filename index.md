@@ -10,7 +10,7 @@ Locked to **scale-only**, rounded to **2×10^N** blocks. Units per your spec.
 | **H** | Household              | kWh  | **2×10¹ kWh**  ≈ **20 kWh**  | ~10× P                     |
 | **F** | Firm (SME block)       | MWh  | **2×10⁰ MWh**  ≈ **2 MWh**   | ~100× H                    |
 | **C** | City / Gov block       | GWh  | **2×10⁰ GWh**  ≈ **2 GWh**   | **US = 1,000 × C**         |
-| **S** | Hyperscalers (“super”) | GWh  | **2×10² GWh**  ≈ **200 GWh** | **S = 100 × C**            |
+| **[S](https://ukb-dt.github.io/gem/)** | Hyperscalers (“super”) | GWh  | **2×10² GWh**  ≈ **200 GWh** | **S = 100 × C**            |
 | **W** | World (electricity)    | TWh  | **2×10¹ TWh**  ≈ **20 TWh**  | ≈ 10–50 × US (scale-only)  |
 
 Tiny legend: everything is snapped to **2×10^N** (so 30 → use **20**).
