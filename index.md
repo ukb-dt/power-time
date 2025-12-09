@@ -1,4 +1,4 @@
-> *Kenya’s retail electricity (~ **$0.22 USD/kWh**) is indeed roughly **an order of magnitude higher** than Egypt’s (~ **$0.02 USD/kWh**)*              
+> *Kenya’s retail electricity (~ **[$0.22](https://ukb-dt.github.io/era/) USD/kWh**) is indeed roughly **an order of magnitude higher** than Egypt’s (~ **$0.02 USD/kWh**)*              
 > -- [Baba Theuri](https://ukb-dt.github.io/theuri/)
 
 # [A](https://ukb-dt.github.io/ecology/)
@@ -39,7 +39,7 @@ Quick reads:
 
 If you want this as a one-glance card for the ukb-fractal README, I can print a super-lean `.md` or `.html` snippet using only these numbers (no decimals, all 2×10^N).
 
-# C
+# [C](https://ukb-dt.github.io/pbsmc-cesgm/)
 
 <div>
   <img src="ke/kWh-kitisiru.jpg" width="51%"> 
