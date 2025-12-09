@@ -7,7 +7,7 @@ Locked to **scale-only**, rounded to **2×10^N** blocks. Units per your spec.
 |  Code | Tier (who/what)        | Unit | Canon size (per **day**)     | Count relations (ballpark) |
 | ----: | ---------------------- | ---- | ---------------------------- | -------------------------- |
 | **P** | Person                 | kWh  | **2×10⁰ kWh**  ≈ **2 kWh**   | ~1/10 of H                 |
-| **H** | Household              | kWh  | **2×10¹ kWh**  ≈ **20 kWh**  | ~10× P                     |
+| **[H](https://ukb-dt.github.io/dt/)** | Household              | kWh  | **2×10¹ kWh**  ≈ **20 kWh**  | ~10× P                     |
 | **F** | Firm (SME block)       | MWh  | **2×10⁰ MWh**  ≈ **2 MWh**   | ~100× H                    |
 | **C** | City / Gov block       | GWh  | **2×10⁰ GWh**  ≈ **2 GWh**   | **US = 1,000 × C**         |
 | **[S](https://ukb-dt.github.io/gem/)** | Hyperscalers (“super”) | GWh  | **2×10² GWh**  ≈ **200 GWh** | **S = 100 × C**            |
@@ -18,7 +18,7 @@ This keeps head math clean while preserving the staircase: **P→H→F→C→S�
 
 Next step, if you want: I can drop **Nvidia/OpenAI 10 GW** and **your current US block** onto this same ladder so you can eyeball gaps without changing the canon.
 
-# B
+# [B](https://ukb-dt.github.io/dt/)
 Yebo. Dropping **Nvidia/OpenAI 10 GW** and the **US block** onto your canon, staying strict to your **2×10^N** ladder and daily units.
 
 ### Overlay (daily, rounded to 2×10^N where defined)
